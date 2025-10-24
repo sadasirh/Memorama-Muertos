@@ -9,6 +9,12 @@ const cartasData = [
   "carta4.jpg",
   "carta5.jpg",
   "carta6.jpg",
+  "carta7.jpg",
+  "carta8.jpg",
+  "carta9.jpg",
+  "carta10.jpg",
+  "carta11.jpg",
+  "carta12.jpg",
 ];
 
 let cartas = [...cartasData, ...cartasData].sort(() => 0.5 - Math.random());
@@ -137,3 +143,4 @@ async function enviarPuntuacion(data) {
     console.error("Error al enviar puntaje:", err);
   }
 }
+
